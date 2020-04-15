@@ -1,0 +1,186 @@
+
+/*-----------------
+   CONTACTS
+------------------*/
+.wrapper-contacts {
+	padding: 25px;
+	margin-bottom: 30px;
+	background-color: rgb(218, 244, 0);;
+}
+
+.contacts ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.contacts h4 {
+	margin-bottom: 20px;
+}
+
+
+/*-----------------
+   MAP & INFO
+------------------*/
+.description-wrap {
+	margin: 0 auto;
+}
+
+.description-brand {
+	padding: 0 25px;
+	margin-bottom: 35px;
+	
+}
+
+.middle-home {
+	margin-top: 1.5rem;
+}
+
+.middle-inner {
+	padding: 0 2.5rem 1rem;
+	border-top: 1px solid black;
+	border-left: 30px solid black;
+}
+
+.main-title {
+	 padding-top: 20px;	
+	 font-size: 500%;
+	 font-family: 'Fredoka One', cursive;
+}
+
+.subtitle-home {
+	font-size: 28px;	
+}
+
+.slogan-section {
+	margin-left: 30px;
+	border-top: 1px solid black;
+}
+
+.slogan-section p {
+	text-align: center;
+	padding: 1rem 0 0 0;
+}
+
+.slogan {
+	font-size: 800%;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1.2rem; 
+	margin: 0;
+}
+
+.panorama img {
+	width: 100%;
+	max-height: 500px;
+}
+
+.section-map {
+	border-top: 1px solid black;
+	margin-bottom: 15px;
+	padding: 30px 20px 20px 20px;
+	overflow: hidden;
+	width: 100%;
+	max-height: 500px;
+}
+
+/*-----------------
+   CAROUSEL
+------------------*/
+.carousel-dimension  {
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+	width: 100%;
+	max-height: 800px;
+}
+
+/*-----------------
+   NAVIGATOR
+------------------*/
+.navbar {
+  width: 100%;
+  line-height: 4;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.nav-title {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2.5px;
+	font-size: 150%;
+}
+
+/*-----------------
+   MEDIA QUERIES
+------------------*/
+@media (max-width: 767px){
+  .resize-frame {width: 100%;}
+  .slogan-section p {font-size: 500%;}
+  .main-title {font-size: 400%;}
+}
+
+/*-----------------
+   FOOTER
+------------------*/
+
+.f-wrapp {
+	background-color: #070707;
+	width: 100%;
+	height: 350px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.f-wrapp-title {
+	margin: 0 auto 30px;
+}
+
+.f-wrapp-title p {
+	color: white;
+	font-family: 'Fredoka One', cursive;
+	font-size: 320%;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.f-links {
+	margin: 0 auto 20px;
+	text-align: center;  
+} 
+
+.f-links p {
+	display: inline-block;
+	padding-right: 15px;	 
+}
+
+.f-links a {
+	color: #fff;
+	
+}
+
+.f-links a:hover {
+	color: rgb(218, 244, 0);
+	text-decoration: none; 
+}
+
+.copy {
+	width: 100%;
+	margin: 30px auto 0;
+}
+
+.copy p {
+	color: #fff;
+	font-family: 'Fredoka One', cursive;
+	font-size: 12px;
+	text-align: center;
+}

@@ -1,0 +1,177 @@
+
+/*-----------------
+   GENERAL
+------------------*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*-----------------
+   CAROUSEL
+------------------*/
+.carousel-dimension  {
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+	width: 100%;
+	max-height: 800px;
+}
+
+/*-----------------
+   NAVIGATOR
+------------------*/
+.navbar {
+  width: 100%;
+  line-height: 4;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.nav-title {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2.5px;
+	font-size: 150%;
+}
+
+/*-----------------
+   GALLERY
+------------------*/
+
+.title-woman {
+	font-family: 'Fredoka One', cursive;
+	margin: 40px auto 20px;
+}
+
+.title-woman h2 {
+	font-size: 4em;
+	text-align: center;
+}
+
+.wrap-gallery {
+	margin-top: 20px!important;
+	margin-bottom: 40px!important;
+}
+
+.w-100 {
+    width: 100%!important;
+    padding: 10px 20px!important;
+}
+
+.article-wrapp {
+	background-color: pink;
+	margin: 15px;
+	box-shadow: 4px 2px 5px  #666666;
+}
+
+.article-wrapp img:hover {
+	opacity: 0.7;
+}
+
+.article-description {
+	psition: relative;
+	font-weight: 500;
+	border-bottom: 2.5px solid black;
+	padding: 0 25px;
+}
+
+.details-artcl {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.small-logo-description {
+	color: #000;
+	font-family: 'Fredoka One', cursive;
+	font-size: 110%;
+}
+
+.order-footer-item {
+	margin: 0 auto;
+}
+/*-----------------
+   FOOTER
+------------------*/
+.f-wrapp {
+	background-color: #070707;
+	width: 100%;
+	height: 350px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.f-wrapp-title {
+	margin: 0 auto 30px;
+}
+
+.f-wrapp-title p {
+	color: white;
+	font-family: 'Fredoka One', cursive;
+	font-size: 320%;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.f-links {
+	margin: 0 auto 20px;
+	text-align: center;  
+} 
+
+.f-links p {
+	display: inline-block;
+	padding-right: 15px;	 
+}
+
+.f-links a {
+	color: #fff;
+	
+}
+
+.f-links a:hover {
+	color: rgb(218, 244, 0);
+	text-decoration: none; 
+}
+
+.copy {
+	width: 100%;
+	margin: 30px auto 0;
+}
+
+.copy p {
+	color: #fff;
+	font-family: 'Fredoka One', cursive;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+/*-----------------
+   MEDIA QUERIES
+------------------*/
+ 
+@media (min-width: 793px) and (max-width: 1140px) {
+	.woman-shop-wrapper {
+		display: flex;
+		display: -webkit-flex;
+		flex-direction: column;
+		margin: 0 25%;	
+	}
+ 
+	 .card img {
+		width: 400;
+		height: auto;
+		overflow: hidden;
+	}
+}
